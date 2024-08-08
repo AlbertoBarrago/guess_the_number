@@ -1,9 +1,8 @@
-from logo import logo
-from utils.utils import set_difficulty, select_random_number, compute_result
+from utils.utils import set_difficulty, select_random_number, compute_result, show_logo
 
 
 def start_game():
-    print(logo)
+    show_logo()
     has_guess_number = False
     difficulty = input('Choose a difficulty (easy, medium, hard): ')
     number_of_lives = set_difficulty(difficulty)

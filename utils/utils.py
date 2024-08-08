@@ -1,5 +1,7 @@
 import random
 
+from logo import logo
+
 
 def select_random_number():
     for _ in range(101):
@@ -23,3 +25,7 @@ def set_difficulty(difficulty):
         return 5
     else:
         return 1
+
+
+def show_logo():
+    print(logo)
