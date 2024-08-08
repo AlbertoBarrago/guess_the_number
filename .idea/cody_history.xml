@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChatHistory">
+    <accountData>
+      <list>
+        <AccountData>
+          <accountId value="VXNlcjozMDIxNzY=" />
+          <chats>
+            <list>
+              <chat>
+                <internalId value="1ebdbf1b-61a7-477b-9815-4e99a1fdebfe" />
+              </chat>
+              <chat>
+                <internalId value="9e849890-ae60-4477-bed1-152178ceb3fa" />
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="generate a doc in ascii" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="Certainly! I'd be happy to generate a simple ASCII doc for you. Here's an example of a basic ASCII document structure:&#10;&#10;```&#10;+----------------------------------+&#10;|             DOCUMENT             |&#10;+----------------------------------+&#10;|                                  |&#10;|  Title: My ASCII Document        |&#10;|  Author: AI Assistant            |&#10;|  Date: [Current Date]            |&#10;|                                  |&#10;+----------------------------------+&#10;|                                  |&#10;|  1. Introduction                 |&#10;|     1.1 Purpose                  |&#10;|     1.2 Scope                    |&#10;|                                  |&#10;|  2. Main Content                 |&#10;|     2.1 Section One              |&#10;|     2.2 Section Two              |&#10;|     2.3 Section Three            |&#10;|                                  |&#10;|  3. Conclusion                   |&#10;|                                  |&#10;|  4. References                   |&#10;|                                  |&#10;+----------------------------------+&#10;|        Footer Information        |&#10;+----------------------------------+&#10;```&#10;&#10;This ASCII doc provides a simple structure for a document, including a header with title and author information, a table of contents, and space for main content sections. You can easily modify this template to fit your specific needs or add more detailed content within each section." />
+                    </message>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="generate a cat in ascii" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="Absolutely! I'd be delighted to generate a cat in ASCII for you. Here's a cute ASCII cat:&#10;&#10;```&#10; /\     /\&#10;{  `---'  }&#10;{  O   O  }&#10;~~&gt;  V  &lt;~~&#10; \  \|/  /&#10;  `-----'&#10;```&#10;&#10;This ASCII cat features pointy ears, big eyes, a small nose, whiskers, and paws. It's a simple yet charming representation of a cat's face. Feel free to use this in your projects or wherever you need a bit of feline charm in text form!" />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-08-08T10:52:16.067271" />
+              </chat>
+            </list>
+          </chats>
+        </AccountData>
+      </list>
+    </accountData>
+  </component>
+</project>
