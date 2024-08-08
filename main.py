@@ -13,9 +13,9 @@ def compute_result(player_number, computer_number):
     if player_number == computer_number:
         return 'Congratulations! You guessed it right!'
     elif player_number > computer_number:
-        return 'Your guess is too high.'
+        return 'Your guess is too high. Try again!'
     else:
-        return 'Your guess is too low.'
+        return 'Your guess is too low. Try again!'
 
 
 def set_difficulty(difficulty):
@@ -34,17 +34,17 @@ def start_game():
     number_of_lives = set_difficulty(difficulty)
     number = select_random_number()
     print(f'I have selected a number between 1 and 100. Can you guess it?')
-    print(f'psst the right number is {number}')
+    # print(f'psst the right number is {number}')
     while not has_guess_number:
         print(f'You have {number_of_lives} lives left.')
         guess = int(input('Enter your guess: '))
         result = compute_result(guess, number)
-        print(result)
-        if result != 'Congratulations! You guessed it right!' and number_of_lives > 0:
+        if result != 'Congratulations! You guessed it right!' and number_of_lives > 1:
+            print(result)
             number_of_lives -= 1
             continue
-        elif number_of_lives == 0:
-            print('You have run out of lives. Game over.')
+        elif number_of_lives == 1 and result != 'Congratulations! You guessed it right!':
+            print(f'You have run out of lives. Game over. \nThe right number was: {number}')
             has_guess_number = True
         else:
             has_guess_number = True
